@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C02040E81F3C76F80034A1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02040E71F3C76F80034A1CF /* AppDelegate.swift */; };
-		C02040EA1F3C76F80034A1CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02040E91F3C76F80034A1CF /* ViewController.swift */; };
 		C02040ED1F3C76F80034A1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02040EB1F3C76F80034A1CF /* Main.storyboard */; };
 		C02040EF1F3C76F80034A1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02040EE1F3C76F80034A1CF /* Assets.xcassets */; };
 		C02040F21F3C76F80034A1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02040F01F3C76F80034A1CF /* LaunchScreen.storyboard */; };
+		C0C739301F3D6E88006C1AC7 /* EditMemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7392F1F3D6E88006C1AC7 /* EditMemberController.swift */; };
+		C0CD0D3D1F3C8D9500689430 /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD0D3C1F3C8D9500689430 /* StartTableViewController.swift */; };
+		C0CD0D3F1F3C954600689430 /* MemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD0D3E1F3C954600689430 /* MemberController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C02040E41F3C76F80034A1CF /* DataPassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataPassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02040E71F3C76F80034A1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C02040E91F3C76F80034A1CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C02040EC1F3C76F80034A1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C02040EE1F3C76F80034A1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02040F11F3C76F80034A1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02040F31F3C76F80034A1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C7392F1F3D6E88006C1AC7 /* EditMemberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemberController.swift; sourceTree = "<group>"; };
+		C0CD0D3C1F3C8D9500689430 /* StartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
+		C0CD0D3E1F3C954600689430 /* MemberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C02040E71F3C76F80034A1CF /* AppDelegate.swift */,
-				C02040E91F3C76F80034A1CF /* ViewController.swift */,
 				C02040EB1F3C76F80034A1CF /* Main.storyboard */,
 				C02040EE1F3C76F80034A1CF /* Assets.xcassets */,
 				C02040F01F3C76F80034A1CF /* LaunchScreen.storyboard */,
 				C02040F31F3C76F80034A1CF /* Info.plist */,
+				C0CD0D3C1F3C8D9500689430 /* StartTableViewController.swift */,
+				C0CD0D3E1F3C954600689430 /* MemberController.swift */,
+				C0C7392F1F3D6E88006C1AC7 /* EditMemberController.swift */,
 			);
 			path = DataPassDemo;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C02040EA1F3C76F80034A1CF /* ViewController.swift in Sources */,
+				C0CD0D3D1F3C8D9500689430 /* StartTableViewController.swift in Sources */,
+				C0CD0D3F1F3C954600689430 /* MemberController.swift in Sources */,
 				C02040E81F3C76F80034A1CF /* AppDelegate.swift in Sources */,
+				C0C739301F3D6E88006C1AC7 /* EditMemberController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
